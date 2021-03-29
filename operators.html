@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Operator</title>
+</head>
+
+<body>
+    <h1>Arithmetic Operations </h1>
+    <p id='add'> Addition </p>
+    <p id='sub'> Subtraction </p>
+    <p id='mul'> Multiplication </p>
+    <p id='div'> Division </p>
+    <p id='mod'> Modulus </p>
+    <p id='inc'>Incrementing </p>
+    <p id='dec'>Decrementing </p>
+    <p id='exp'>Exponentiation</p>
+    <script>
+        var a = 55, b = 10;
+        var c = 20, d = 30;
+
+
+
+
+        var add, sub, mul, div, mod, inc, dec, exp;
+
+        add = a + b;
+        sub = a - b;
+        mul = a * b;
+        div = a / b;
+        mod = a % b;
+        inc = c++;
+        dec = d--;
+        exp = a ** 2;
+
+
+        document.getElementById("add").innerHTML = "Addition of " + a + ' and ' + b + " is = " + add;
+        document.getElementById("sub").innerHTML = "Subtraction of " + a + ' and ' + b + " is = " + sub;
+        document.getElementById("mul").innerHTML = "Multiplication of " + a + ' and ' + b + " is = " + mul;
+        document.getElementById("div").innerHTML = "Division of " + a + ' and ' + b + " is = " + div;
+        document.getElementById("mod").innerHTML = "Modulus of " + a + ' and ' + b + " is = " + mod;
+        document.getElementById("inc").innerHTML = "Increment of " + c + " is = " + inc;
+        document.getElementById("dec").innerHTML = "Decrement of " + d + " is = " + dec;
+        document.getElementById("exp").innerHTML = "Exponentiation of " + a + " is = " + exp;
+
+    </script>
+</body>
