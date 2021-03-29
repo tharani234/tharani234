@@ -1,0 +1,185 @@
+// Arithmetic
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Operator</title>
+</head>
+
+<body>
+    <h1>Arithmetic Operations </h1>
+    <p id='add'> Addition </p>
+    <p id='sub'> Subtraction </p>
+    <p id='mul'> Multiplication </p>
+    <p id='div'> Division </p>
+    <p id='mod'> Modulus </p>
+    <p id='inc'>Incrementing </p>
+    <p id='dec'>Decrementing </p>
+    <p id='exp'>Exponentiation</p>
+    <script>
+        var a = 55, b = 10;
+        var c = 20, d = 30;
+
+
+
+
+        var add, sub, mul, div, mod, inc, dec, exp;
+
+        add = a + b;
+        sub = a - b;
+        mul = a * b;
+        div = a / b;
+        mod = a % b;
+        inc = c++;
+        dec = d--;
+        exp = a ** 2;
+
+
+        document.getElementById("add").innerHTML = "Addition of " + a + ' and ' + b + " is = " + add;
+        document.getElementById("sub").innerHTML = "Subtraction of " + a + ' and ' + b + " is = " + sub;
+        document.getElementById("mul").innerHTML = "Multiplication of " + a + ' and ' + b + " is = " + mul;
+        document.getElementById("div").innerHTML = "Division of " + a + ' and ' + b + " is = " + div;
+        document.getElementById("mod").innerHTML = "Modulus of " + a + ' and ' + b + " is = " + mod;
+        document.getElementById("inc").innerHTML = "Increment of " + c + " is = " + inc;
+        document.getElementById("dec").innerHTML = "Decrement of " + d + " is = " + dec;
+        document.getElementById("exp").innerHTML = "Exponentiation of " + a + " is = " + exp;
+
+    </script>
+</body>
+
+//Assignment
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <head>
+        <title>Operator</title>
+    </head>
+
+    <h2>Assignment Operator</h2>
+
+    <p id="incrementing"></p>
+    <p id="decrementing"></p>
+    <p id="multiplication"></p>
+    <p id="exponentiation"></p>
+    <p id="division"></p>
+    <p id="modulus"></p>
+
+    <script>
+        var a = 10, b = 20, c = 30, d = 25, e = 15, f = 65;
+        a += 5;
+        b -= 3;
+        c *= 2;
+        d **= 2;
+        e /= 2;
+        f %= 3;
+        document.getElementById("incrementing").innerHTML = a;
+        document.getElementById("decrementing").innerHTML = b;
+        document.getElementById("multiplication").innerHTML = c;
+        document.getElementById("exponentiation").innerHTML = d;
+        document.getElementById("division").innerHTML = e;
+        document.getElementById("modulus").innerHTML = f;
+    </script>
+
+</body>
+
+</html>
+
+//String
+
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+    <tittle>Operator</tittle>
+</head>
+<h2>String Operator</h2>
+
+<p id="Travels"></p>
+
+<script>
+var starting = "Madurai";
+var ending = "Chennai";
+document.getElementById("Travels").innerHTML = starting + " to " + ending;
+</script>
+
+</body>
+</html>
+
+//Comparision
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <head>
+        <tittle>Operator</tittle>
+    </head>
+
+    <h2>Comparision Operator</h2>
+
+    <p id="Equal to"></p>
+    <p id="Not equal to"></p>
+    <p id="Strict equal to"></p>
+    <p id="Strict not equal to"></p>
+    <p id="Greater than"></p>
+    <p id="Greater than or equal to"></p>
+    <p id="Less than"></p>
+    <p id="Less than or equal to"></p>
+    <script>
+        var x = 5;
+        var y = 5;
+        var a1 = x == y;
+        var a2 = x != y;
+        var a3 = x === y;
+        var a4 = x !== y;
+        var a5 = x > y;
+        var a6 = x >= y;
+        var a7 = x < y;
+        var a8 = x <= y;
+        document.getElementById("Equal to").innerHTML = a1;
+        document.getElementById("Not equal to").innerHTML = a2;
+        document.getElementById("Strict equal to").innerHTML = a3;
+        document.getElementById("Strict not equal to").innerHTML = a4;
+        document.getElementById("Greater than").innerHTML = a5;
+        document.getElementById("Greater than or equal to").innerHTML = a6;
+        document.getElementById("Less than").innerHTML = a7;
+        document.getElementById("Less than or equal to").innerHTML = a8;
+
+
+    </script>
+
+</body>
+
+</html>
+
+//logical
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Logical method</h2>
+
+<p id="or"></p>
+<p id="and"></p>
+
+
+<script>
+var x = 5;
+var y = 2;
+var z1=5||2;
+var z2=5&&2;
+document.getElementById("or").innerHTML = z1;
+document.getElementById("and").innerHTML = z2;
+</script>
+
+</body>
+</html>
+
+//
+
+
