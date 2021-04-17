@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Email</title>
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="list.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_left">
+            <label class="material-icons">menu</label>
+            <img src="https://i.pinimg.com/originals/ae/47/fa/ae47fa9a8fd263aa364018517020552d.png" alt="" width="120px"
+                height="90px">
+        </div>
+        <div class="header_middle">
+            <label class="material-icons">search
+                <input type="text" placeholder="search mail"></label>
+
+        </div>
+        <div class="header_right">
+            <label class="material-icons">settings</label>
+            <label class="material-icons">apps</label>
+            <label class="material-icons">account_circle</label>
+        </div>
+        <div class="main">
+            <div class="sidebar">
+                <button class="sidebar_compose">
+                    <label class="material-icons">add</label>compose</button>
+                <div class="sidebaroption">
+                    <label class="material-icons">inbox</label>
+                    <h3>Inbox</h3>
+                </div>
+                <div class="sidebaroption">
+                    <label class="material-icons">star</label>
+                    <h3>Starred</h3>
+                </div>
+
+                <div class="sidebaroption">
+                    <label class="material-icons">near_me</label>
+                    <h3>Sent</h3>
+                </div>
+                <div class="sidebaroption">
+                    <label class="material-icons">note</label>
+                    <h3>Drafts</h3>
+                </div>
+                <div class="sidebaroption">
+                    <label class="material-icons">arrow_drop_down</label>
+                    <h3>More</h3>
+                </div>
+
+                <div class="sidebar_footer">
+                    <div class="sidebar_footerIcons">
+                        <span class="material-icons"> person </span>
+                        <span class="material-icons"> duo </span>
+                        <span class="material-icons"> phone </span>
+                    </div>
+                    <div class="emaillist_settingsLeft">
+                        <input type="checkbox">
+                        <label class="material-icons">arrow_drop_down</label>
+                        <label class="material-icons">refresh</label>
+                        <label class="material-icons">more_vert</label>
+                    </div>
+
+                    <div class="emaillist_settingsRight">
+                        <label class="material-icons">chevron_left</label>
+                        <label class="material-icons">chevron_right</label>
+                    </div>
+                    <div class="emaillist_section">
+                        <div class="section section_selected">
+
+                            <label class="material-icons">inbox</label>
+                            <h4>Primary</h4>
+                        </div>
+                        <div class="section section_selected">
+                            <label class="material-icons">people</label>
+                            <h4>Social</h4>
+                        </div>
+                        <div class="section section_selected">
+                            <label class="material-icons">local_offer</label>
+                            <h4>Promotions</h4>
+                        </div>
+                        </di>
+                        <div class="emailROw">
+                            <div class="emailRow_options">
+                                <input type="checkbox">
+                                <label class="material-icons">star_border</label>
+                            </div>
+                            <div class="emailRow_title1">Google</div>
+                            <div class="emailRow_message1">
+                                <h4>Hiii</h4>
+                            </div>
+                            <label class="emailRow_time1">3am</label>
+                        </div>
+                        <div class="emailROw">
+                            <div class="emailRow_options1">
+                                <input type="checkbox">
+                                <label class="material-icons">star_border</label>
+                            </div>
+                            <div class="emailRow_title">Facebook</div>
+
+                            <div class="emailRow_message">
+                                <h4>Hello</h4>
+                            </div>
+                            <label class="emailRow_time">7am</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
+  
+  
+  //css
+  
+  *{
+    margin: 0;
+      }
+  .header_left img {
+      height: 80px;
+    margin-left: 5px;
+  }
+  .header {
+display: grid;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+
+  }
+  .header_left {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .header_middle {
+
+    display: flex;
+    position: absolute;
+    margin-top: 60px;
+    flex: 0.7;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 230px;
+    width: 900px;
+    margin-right: 400px;
+          }
+  .material-icons {
+    color: gray;
+  }
+  .header_middle input {
+    border: none;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    font-size: medium;
+    background-color: transparent;
+  }
+  
+  .header_right {
+    display: flex;
+    padding-right: 20px;
+    position: absolute;
+    margin-left: 1700px;
+    margin-top: 60px;
+  }
+  .header_right label{
+    padding: 10px;
+    cursor: pointer;
+  }
+  .sidebar {
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+  }
+  
+  .sidebar_compose {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: gray;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+  }
+  .sidebar_compose label {
+    margin-right: 5px;
+  }
+  
+  .sidebaroption {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    color: #818181;
+    font-family: sans-serif;
+  }
+  .sidebaroption .material-icons {
+    padding: 5px;
+    
+  }
+  .sidebaroption h3 {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .sidebaroption:hover,
+  .sidebaroption :hover .material-icons,
+  .sidebaroption :hover{
+   background-color:whitesmoke ;
+   color: red;
+  }
+  .sidebar_footerIcons .material-icons{
+    position: relative;
+    top: 25px;
+    padding: 10px;
+    
+  }
+
+.main {
+    display: flex;
+    height: 100vh;
+  }
+  body {
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+  .emaillist_settingsLeft {
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+        top: -285px;
+    position: relative;
+  }
+  .emaillist_settingsRight{
+      display: flex;
+      position: relative;
+      margin-left: 1700px;
+      top:-300px;
+      align-items: center;
+  }
+  .emaillist_settings {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+    padding: 8px;
+  }
+  .section {
+    display: flex;
+    align-items: center;
+    border-bottom-width: 2px;
+    padding: 15px;
+    min-width: 200px;
+    cursor: pointer;
+    color: red;
+    border-width: 0;
+  }
+    
+    .emaillist_section{
+    position: sticky;
+    position: relative;
+    top:110px;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .emaillist{
+    overflow: scroll;
+  }
+  .section_selected {
+    background-color: whitesmoke;
+    border-width: 3px;
+    color: rgb(30, 31, 32);
+    font-family: sans-serif;
+    margin-left: 10px;
+    position: relative;
+    top: -395px;
+    position: relative;
+    padding: 10px;
+    height: 30px;
+    right:-220px
+  }
+  .section_selected .material-icons{
+    color: lightslategray;
+  }
+
+  .section_selected .material-icons:hover{
+    color: red;
+  }
+  .section_selected:hover {
+    background-color: whitesmoke;
+    border-width: 3px solid whitesmoke;
+    border-bottom: 3px solid red;
+  }
+  .section h4 {
+    font-size: 14px;
+      }
+  .emailRow{
+      position: relative;
+      top: -330px;
+      left: 450px;
+      display: flex;
+      
+  }
+  .emailRow :hover{
+    background-color: whitesmoke;
+  }
+  .emailRow_options input{
+      position: relative;
+      top: -320px;
+      left: -450px;
+        }
+        .emailRow_options .material-icons{
+            position: relative;
+            top: -315px;
+            left: -440px;
+        }
+        .emailRow_title1{
+            position: relative;
+            top:-345px;
+            left: -380px;
+            
+            
+        }
+        .emailRow_message1{
+            position: relative;
+            top: -365px;
+            left: -230px;
+        }
+        .emailRow_time1{
+            position: relative;
+            top: -385px;
+            right: -1100px;
+        }
+
+  .emailRow_options1 input{
+    position: relative;
+    top: -270px;
+    left: -510px;
+      }
+      .emailRow_options1 .material-icons{
+          position: relative;
+          top: -263px;
+          left: -496px;
+      }
+      .emailRow_title{
+          position: relative;
+          top:-290px;
+          left: -440px;
+          
+      }
+      .emailRow_message{
+          position: relative;
+          top: -310px;
+          left: -290px
+      }
+      .emailRow_time{
+          position: relative;
+          top: -345px;
+          right: -1045px;
+          
+      }
+      
