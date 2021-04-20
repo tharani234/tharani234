@@ -17,7 +17,7 @@
 <label id="charAt"></label><br>
 <script>
 var text = "Activities page";
-var text1="    hello world   "
+var text1="    hello world   ";
 var sln= text.length;
 var ind =text.indexOf("page")
 var last=text.lastIndexOf("page")
