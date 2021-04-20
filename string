@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title>string</title>
+<label id="string length"></label><br>
+<label id="indexOf"></label><br>
+<label id="lastIndexOf"></label><br>
+<label id="slice"></label><br>
+<label id="substring"></label><br>
+<label id="substr"></label><br>
+<label id="replace"></label><br>
+<label id="toUpperCase"></label><br>
+<label id="toLowerCase"></label><br>
+<label id="concat"></label><br>
+<label id="split"></label><br>
+<label id="trim"></label><br>
+<label id="charAt"></label><br>
+<script>
+var text = "Activities page";
+var text1="    hello world   "
+var sln= text.length;
+var ind =text.indexOf("page")
+var last=text.lastIndexOf("page")
+var slice=text.slice(4,9);
+var sub=text.substring(15,10);
+var str=text.substr(0);
+var rpl=text.replace("page","link");
+var uc=text.toUpperCase();
+var lc=text.toLowerCase();
+var con=text.concat();
+var split=text.split((""))
+var trim=text1.trim();
+var charAt=text.charAt(6);
+document.getElementById("string length").innerHTML=sln;
+document.getElementById("indexOf").innerHTML=ind;
+document.getElementById("lastIndexOf").innerHTML=last;
+document.getElementById("slice").innerHTML=slice;
+document.getElementById("substring").innerHTML=sub;
+document.getElementById("substr").innerHTML=str;
+document.getElementById("replace").innerHTML=rpl;
+document.getElementById("toUpperCase").innerHTML=uc;
+document.getElementById("toLowerCase").innerHTML=lc;
+document.getElementById("concat").innerHTML=con;
+document.getElementById("split").innerHTML=split;
+document.getElementById("trim").innerHTML=trim;
+document.getElementById("charAt").innerHTML=charAt;
+</script>
+</body>
+</html>
+
