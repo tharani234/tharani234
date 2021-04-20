@@ -19,8 +19,8 @@
 var text = "Activities page";
 var text1="    hello world   ";
 var sln= text.length;
-var ind =text.indexOf("page")
-var last=text.lastIndexOf("page")
+var ind =text.indexOf("page");
+var last=text.lastIndexOf("page");
 var slice=text.slice(4,9);
 var sub=text.substring(15,10);
 var str=text.substr(0);
