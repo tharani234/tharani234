@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator </title>
+        <link rel="stylesheet" href="calculator.css">
+        <script type="text/javascript" src="calculator.js"></script>
+    </head>
+    <body>
+             <table>
+            <tr>
+                <tr>
+            <td class="heading">
+            
+            </td>
+            </tr>
+            <td>
+                <input type="text" id="input" placeholder="0" readonly="readonly">
+               <input type="text" id="answer" readonly="readonly" style="color: greenyellow;">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                                    
+                <input type="button" value="AC" onclick="clearScreen()"style="background-color :#aaa5a5;color:black">
+                <input type="button" value="+/-" onclick="getOperand('+/-')"style="background-color :#aaa5a5;color:black">
+                <input type="button" value="%" onclick="getOperand('%')"style="background-color :#aaa5a5;color:black">
+                <input type="button" value="/" onclick="getOperand('/')"style="background-color:orange;">
+                <br>
+                    <input type="button" value="7" onclick="getNumber(7)">
+                    <input type="button" value="8" onclick="getNumber(8)">
+                    <input type="button" value="9" onclick="getNumber(9)">
+                    <input type="button" value="*" onclick="getOperand('*')"style="background-color:orange;">          
+                 <br>
+                    <input type="button" value="4" onclick="getNumber(4)">
+                    <input type="button" value="5" onclick="getNumber(5)">
+                    <input type="button" value="6" onclick="getNumber(6)">
+                    <input type="button" value="-" onclick="getOperand('-')"style="background-color:orange;">
+                   <br>
+                    <input type="button" value="1" onclick="getNumber(1)">
+                    <input type="button" value="2" onclick="getNumber(2)">                   
+                    <input type="button" value="3" onclick="getNumber(3)">  
+                    <input type="button" value="+" onclick="getOperand('+')"style="background-color:orange;">
+                   <br>
+                   <input type="button" value="0" onclick="getNumber(0)" style="width: 142px;text-align: left;padding: 24px;">
+                    <input type="button" value="." onclick="getOperand('.')">
+                    <input type="button" value="=" onclick="compute()"style="background-color:orange;">
+                <br>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>

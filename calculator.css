@@ -1,0 +1,48 @@
+table{
+    width: 310px;
+    margin: 50px auto;
+    background: black;
+    border: none;
+    border-radius: 0px solid black;
+    border-radius: 13px;
+    position: relative;
+    margin: 645px;
+    top: -454px;
+ }
+.heading{
+    color: white;
+    font-size: 130%;
+    text-align: center;
+}
+#input,#answer{
+    height: 104px;
+    width: 304px;
+    text-align: right;
+    border: none;
+    font-size: 70px;
+    background-color: black;
+}
+#input{
+    
+    color:white;
+    height:98px;
+}
+#answer{
+    
+    color:black;
+}
+input[type=button]
+{
+    height: 70px;
+    width: 70px;
+    color: white;
+    background:rgb(69 67 67);
+    margin: 1px;
+    border-radius: 100px; 
+    border: none;
+    font-size: large;
+}
+input[type=button]:focus{
+    outline: none;
+    
+}
