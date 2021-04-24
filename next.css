@@ -1,0 +1,17 @@
+*body{
+    margin: 0;
+}
+.main{
+
+    top: -300px;
+    height: 189px;
+    border: 1px solid black;
+    border-radius: 9px;
+    width: 373px;
+    padding: 123px;
+    position: relative;
+    display: grid;
+    margin: 550px;
+}
+
+
