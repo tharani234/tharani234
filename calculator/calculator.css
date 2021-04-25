@@ -9,11 +9,6 @@ table{
     margin: 645px;
     top: -454px;
  }
-.heading{
-    color: white;
-    font-size: 130%;
-    text-align: center;
-}
 #input,#answer{
     height: 104px;
     width: 304px;
