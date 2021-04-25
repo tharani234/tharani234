@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+}
+.drop {
+    width:518px;
+    height: 418px;
+    margin: 69px;
+    border: 1px solid black;
+
+  }
