@@ -34,7 +34,7 @@ return false;
 
     var password=document.getElementById("conf");
        if(password.value.length < 8) {
-       document.getElementById("message4").innerHTML = "Confirm password must be at least 8 characters long";
+       document.getElementById("message5").innerHTML = "Confirm password must be at least 8 characters long";
        return false;
     }
    }
