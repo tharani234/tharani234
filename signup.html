@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <title>sign up</title>
+        <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <script src="signup.js"></script>
+</head>
+<body>
+       <div class="main">
+        <form  action="next.html"  name="myForm" onsubmit="return validate()">
+    <div class="head">
+        <div class="img1">
+        <img src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" alt="pic" width="270px">
+        </div>
+        <div class="img2">
+        <img src="https://seeklogo.net/wp-content/uploads/2015/09/Google-logo-1-512x512.png" alt="Google" width="100px"> 
+        </div>
+        <h3> Create your Google Account</h3>
+    </div>
+    <div class="name">
+        <input id="first" type="name" name="" value="" placeholder="First name"><br>
+        <span id = "message1" style="color:red;position: fixed;font-size: 13px;font-family: sans-serif;bottom: 580px;"> </span>
+
+            </div>
+    <div class="name">
+        <input  id="last" type="name" name="" value="" placeholder="Last name"><br>
+        <span id = "message2" style="color:red;position: fixed;font-size: 13px;font-family: sans-serif;bottom: 580px;"> </span>
+    </div>
+    <div class="username">
+        <input  id="uname" type="email" name="uname" value="" placeholder="Username"><br>
+    <span id = "message3" style="color:red;position: fixed;font-size: 13px;"> </span>
+        </div>
+    <a href="" class="line1">you can letters,numbers & periods</a>
+    <a href="" class="line2">Use can current email address instead address</a>   
+    <div class="pass">
+            <input id="pass" type="password" name="password" value="" placeholder="Password"><br>
+
+<span id = "message4" style="color:red;position: fixed;font-size: 13px;bottom: 402px;"> </span>
+            </div>
+        <div class="pass">
+            <input id="conf" type="password" name="confirm" value="" placeholder="Confirm"><br>
+
+<span id = "message5" style="color:red;position: fixed;font-size: 13px;bottom: 402px;"> </span>
+                </div>
+    <label class="line3">Use 8 or more characters with a mix of letters,numbers & symbols</label>
+    <div>
+    <input type="checkbox" class="box">
+    <label1>Show Password</label1>
+    </div>
+    <label class="line4">sign in instead</label>
+    <input type="submit" value= "Next">
+<div class="label">
+<label>Help </label>
+<label>Privacy</label>
+<label>Terms</label>
+</div>
+<div class="label3">
+    <label>English (united kingdom)</label>
+    <label class="material-icons">arrow_drop_down</label>
+</div>
+<style>
+    @media screen and (max-width: 900px){
+        form{
+        width: 600px;
+        float: right;
+        }  
+    }
+</style>
+</form>
+    </div>
+</body>

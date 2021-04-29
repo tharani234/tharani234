@@ -1,0 +1,145 @@
+*body{
+margin: 0;
+}
+.img1{
+    position: relative;
+    height:10px;
+    right: -413px;
+    top: 119px;
+}
+.main{
+    position: relative;
+    padding: 99px;
+}
+h3{
+    position: relative;
+    top: -44px;
+    font-size: 24px;
+    font-family: jost;
+}
+form{
+    position: relative;
+    border: 1px solid lightslategray;
+   height: 600px;
+   padding: 40px;
+   border-radius: 9px;
+   width: 42%;
+   margin: 562px;
+   top: -563px;
+   left: -100px;
+}
+input{
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    height: 35px;
+    outline: none;
+    font-size: 15px;
+}
+input:focus{
+    border: 2px solid dodgerblue;
+}
+
+.name{
+    display: inline-block;
+      position: relative;
+      top: -47px; 
+}
+.username{
+    position: relative;
+    top: -11px;
+    width: 10px;
+    }
+    .username input{
+    position: relative;
+    width: 412px;
+}
+.pass{
+    display:inline-table;
+position: relative;
+top: 24px;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.line1{
+font-size: 12px;
+position: relative;
+top: 13px;
+}
+.line2{
+    font-size: 15px;
+    color: #1144ed;
+    position: relative;
+    top: 18px;
+    font-family: sans-serif;
+}
+
+.line3{
+    font-size: 13px;
+    
+    position: relative;
+    display: block;
+  font-family: sans-serif;
+    color: lightslategray;
+    top: 49px;
+}
+
+.line4{
+    font-size: smaller;
+    color:#4971f6;
+    display: inline-block;
+position: relative;
+top: 108px;
+font-family: sans-serif;
+}
+.box{
+    display: block;
+    width: 17px;
+    position: relative;
+    cursor: pointer;
+    top: 70px;
+}
+ label1{
+    position: relative;
+    top: 40px;
+    left: 36px;
+    font-size: smaller;
+}
+input[type=submit]
+{
+    background: #4971f6;
+    border: none;
+    color:white;
+    font-size: 18px;
+    position: relative;
+top: 112px;
+width: 100px;
+height: 45px;
+font-family: monospace;
+left: 78px;
+border-radius: 9px;
+outline: none;
+}
+.label{
+    position: relative;
+    font-size: x-small;
+    color: #757575;;
+    top: 184px;
+    left: 560px;
+    font-family: sans-serif;
+    word-spacing: 15px;
+    
+}
+.label3{
+    position: relative;
+    font-size: x-small;
+    color: lightslategray;
+    top: 160px;
+    font-family: sans-serif;
+    left: -20px;
+}
+.material-icons{
+    position: relative;
+    top: 9px;
+}
