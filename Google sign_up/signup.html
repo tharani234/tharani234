@@ -45,8 +45,24 @@
                 </div>
     <label class="line3">Use 8 or more characters with a mix of letters,numbers & symbols</label>
     <div>
-    <input type="checkbox" class="box">
+    <input type="checkbox" class="box" onclick="myFunction()">
     <label1>Show Password</label1>
+        <script>
+    function myFunction(){
+      var x = document.getElementById("pass");
+      var y=document.getElementById("conf");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+      if (y.type === "password") {
+        y.type = "text";
+      } else {
+        y.type = "password";
+      }
+    }
+    </script>
     </div>
     <label class="line4">sign in instead</label>
     <input type="submit" value= "Next">
