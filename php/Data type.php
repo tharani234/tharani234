@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
+   <title>data type</title>
 <body>
-
 <?php 
 $x = "Instagram";
 $y = "Facebook";
@@ -35,6 +35,5 @@ return $this->str;
 $mobile = new data;
 var_dump($mobile);
 ?>
-
 </body>
 </html>
