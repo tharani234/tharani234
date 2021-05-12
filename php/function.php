@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+ <title>Function</title>
 <body>
 <?php
 function task() 
