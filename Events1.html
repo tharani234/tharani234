@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+        <div ng-app="namelist" ng-controller="name">
+        <button ng-click="myFunc()">click</button>
+        <div ng-show="showMe">
+            <h1>Name List:</h1>
+            <div>
+                <label>Anu</label>
+                <br>
+                <label>Arun</label>
+                <br>
+                <label>Thara</label>
+                <br>
+                <label>Nishu</label>
+            </div>
+        </div>
+        <script>
+            var app = angular.module('namelist', []);
+            app.controller('name', function ($scope) {
+                $scope.showMe = false;
+                $scope.myFunc = function ()
+                 {
+                    $scope.showMe =!$scope.showMe;
+                }
+            });
+        </script>
+        
+</body>
+</html>
