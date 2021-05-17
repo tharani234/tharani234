@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+<div ng-app="increase" ng-controller="counting">
+<button ng-click="count = count + 1"style=padding:20px;color:red;font-size:17px;>Click</button>
+<h1 ng-mousemove="count = count + 1">Temperature</h1>
+<h4>{{ count }}</h4>
+</div>
+<script>
+var app = angular.module('increase', []);
+app.controller('counting', function($scope) {
+    $scope.count = 100;
+});
+</script> 
+</body>
+</html>
