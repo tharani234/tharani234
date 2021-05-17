@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body ng-app="">
+<form>
+  Select a topic:
+  <select ng-model="selectBox" style="font-size: 22px;">
+    <option value="">
+    <option value="certificate">Certificate
+    <option value="color">Color
+    <option value="bike">Bike
+  </select>
+</form>
+<div ng-switch="selectBox">
+  <div ng-switch-when="certificate">
+     <h1>Certificate</h1>
+     <p>It's my first certificate</p>
+  </div>
+  <div ng-switch-when="color">
+     <h1>Color</h1>
+     <p>My favorite color is pink</p>
+  </div>
+  <div ng-switch-when="bike">
+     <h1>Bike</h1>
+     <p>I bought a new bike</p>
+  </div>
+</div>
+</body>
+</html>
