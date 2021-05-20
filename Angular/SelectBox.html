@@ -2,7 +2,7 @@
 <html>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <body>
-<div ng-app="myApp" ng-controller="myCtrl">
+<div ng-app="SelectBox" ng-controller="myCtrl">
 <p>Select a name:</p>
 <select ng-model="selectedName" ng-options="x for (x, y) in name" style="height: 37px;
 width: 200px;
@@ -12,7 +12,7 @@ font-size: 17px;">name</select>
 <h3>Weight: {{selectedName.weight}}</h3>
 </div>
 <script>
-var app = angular.module('myApp', []);
+var app = angular.module('SelectBox', []);
 app.controller('myCtrl', function($scope)
 {
 $scope.name ={
