@@ -12,4 +12,4 @@ class Details extends React.Component{
     )
     }
 }
-ReactDOM.render((<Details/>) ,document.getElementById("root"))
+ReactDOM.render((<Details/>) ,document.getElementById("cls"))
