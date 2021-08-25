@@ -1,0 +1,76 @@
+<div class="row">
+  <div class="col-xl-3">
+    <app-tiles-widget11
+      [title]="'Assigned Bookings'"
+      [count]="dashboardReport.assignedBookings"
+      [image]="'./assets/media/svg/icons/Communication/Selected-file.svg'"
+      routerLink="/bookings/assigned"
+    ></app-tiles-widget11>
+  </div>
+  <div class="col-xl-3">
+    <app-tiles-widget12
+      [title]="'Canceled Bookings'"
+      [count]="dashboardReport.canceledBookings"
+      [image]="'./assets/media/svg/icons/Communication/Selected-file.svg'"
+      routerLink="/bookings/canceled"
+    ></app-tiles-widget12>
+  </div>
+  <div class="col-xl-3">
+    <app-tiles-widget11
+      [title]="'Completed Bookings'"
+      [count]="dashboardReport.completedBookings"
+      [image]="'./assets/media/svg/icons/Communication/Selected-file.svg'"
+      routerLink="/bookings/completed"
+    ></app-tiles-widget11>
+  </div>
+  <div class="col-xl-3">
+    <app-tiles-widget12
+      [title]="'Inprogress Bookings'"
+      [count]="dashboardReport.inProgressBookings"
+      [image]="'./assets/media/svg/icons/Communication/Selected-file.svg'"
+      routerLink="/bookings/in-progress"
+    ></app-tiles-widget12>
+  </div>
+</div>
+<div class="row margin-top-20">
+  <div class="col-xl-3">
+    <app-tiles-widget11
+      [title]="'Pending Payment Bookings'"
+      [count]="dashboardReport.pendingPaymentBookings"
+      [image]="'./assets/media/svg/icons/Communication/Selected-file.svg'"
+      routerLink="/bookings/payment-pending"
+    ></app-tiles-widget11>
+  </div>
+  <div class="col-xl-3">
+    <app-tiles-widget12
+      [title]="'Total Bookings'"
+      [count]="dashboardReport.totalBookings"
+      [image]="'./assets/media/svg/icons/Communication/Selected-file.svg'"
+    ></app-tiles-widget12>
+  </div>
+  <div class="col-xl-3">
+    <app-tiles-widget11
+      [title]="'Total Partners'"
+      [count]="dashboardReport.totalPartners"
+      [image]="'./assets/media/svg/icons/Communication/Group.svg'"
+      routerLink="/partners"
+    ></app-tiles-widget11>
+  </div>
+  <div class="col-xl-3">
+    <app-tiles-widget12
+      [title]="'Total Sales'"
+      [count]="dashboardReport.totalSales"
+      [image]="'./assets/media/svg/icons/Shopping/Chart-bar1.svg'"
+    ></app-tiles-widget12>
+  </div>
+</div>
+<div class="row margin-top-20">
+  <div class="col-xl-3">
+    <app-tiles-widget11
+      [title]="'Total Users'"
+      [count]="dashboardReport.totalUsers"
+      [image]="'./assets/media/svg/icons/Communication/Group.svg'"
+      routerLink="/users"
+    ></app-tiles-widget11>
+  </div>
+</div>
